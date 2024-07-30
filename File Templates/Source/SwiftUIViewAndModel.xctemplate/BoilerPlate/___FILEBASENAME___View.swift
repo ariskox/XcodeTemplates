@@ -45,7 +45,7 @@ private extension ___VARIABLE_productName:identifier___View {
 
 struct ___VARIABLE_productName:identifier___View_Previews: PreviewProvider {
     static var previews: some View {
-    ___VARIABLE_productName:identifier___View(
+        ___VARIABLE_productName:identifier___View(
             viewModel: ___VARIABLE_productName:identifier___ViewModel(
             )
         )

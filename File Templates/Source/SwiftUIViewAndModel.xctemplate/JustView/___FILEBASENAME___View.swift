@@ -11,12 +11,6 @@ struct ___VARIABLE_productName:identifier___View: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
         }
-        .onAppear {
-            viewModel.sendPageAnalyticsEvent()
-        }
-        .onDisappear {
-            viewModel.sendScrollAnalyticsEvent()
-        }
     }
 }
 

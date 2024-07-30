@@ -42,6 +42,7 @@
 			<string>Simple</string>
 			<key>Values</key>
 			<array>
+				<string>JustView</string>
 				<string>Simple</string>
 				<string>BoilerPlate</string>
 			</array>

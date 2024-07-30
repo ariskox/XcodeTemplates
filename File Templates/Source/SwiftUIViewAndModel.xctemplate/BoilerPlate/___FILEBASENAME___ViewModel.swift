@@ -30,6 +30,8 @@ class ___VARIABLE_productName:identifier___ViewModel: AnalyticsTrackingViewModel
         self.bind()
     }
 
+    // MARK: - Binding
+
     private func bind() {
         Crashlytics.crashlytics().log("\(type(of: self)) will go to \(String(describing: self.destination))")
 
@@ -38,4 +40,14 @@ class ___VARIABLE_productName:identifier___ViewModel: AnalyticsTrackingViewModel
             break
         }
     }
+
+    // MARK: - Private functions
+
+    // MARK: - Public functions
+
+    // MARK: - Analytics
+    override var analyticsProvider: ___VARIABLE_productName:identifier___Analytics {
+        return ___VARIABLE_productName:identifier___Analytics()
+    }
+
 }
